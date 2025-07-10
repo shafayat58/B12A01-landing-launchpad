@@ -93,6 +93,59 @@ nav ul li {
   border-radius: 48px;
   
  }
+ /* color share  */
+ 
+ /* product_user syle */
+ .productives{
+  background-color: rgb(200, 197, 232);
+  border-radius: 24px;
+  width: 1140px;
+  margin: 0 auto;
+  /* padding-top: 50px 142px; */
+   gap: 50px;
+   padding: 50px 40px; 
+   
+
+ }
+  .productives_tittle{
+    color: #252432;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    margin-top: -5px;
+    
+  }
+  .productiv_items{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .productiv_description{
+    font-size: 15px;
+  }
+  .prodictiv_num{
+    /* margin-bottom: 0; */
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    line-height: 1; 
+    margin: 0;
+    padding: 0px;
+    
+  }
+  .number{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+  }
+  /* share color */
+  .primary_color{
+    color: #4E47FF;
+  }
+
+   
+  
   
 
 
