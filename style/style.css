@@ -76,7 +76,7 @@ ul li {
 
 /* Hero Section */
 .hero_section {
-  background-image: url("/image/Hero-bg.png");
+  background-image: url("/image/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
