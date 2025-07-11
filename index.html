@@ -1,63 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Landing Lanchpad</title>
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
 </head>
+
 <body class="raleway-normal">
-  <header>
-    <nav>
-   <h1 class="logo"> LOGO</h1>
-   <ul>
-    <li><a href=""><button class="btn_primary">Sign Up</button></a></li>
-   </ul>
-   
-    
-  
- 
-    </nav>
-    <div class="banner">
-      <h1 class="banner_tittle">Cool Dark UI Template for Web flow Agencies!</h1>
-      <li><a href="
-        "><button class="btn_primary">Stay Focused</button></a></li>
+
+  <header class="bg_color">
+    <div class="container">
+      <section class="Navbar">
+        <h1 class="logo">LOGO</h1>
+        <ul>
+          <li><a href="#"><button class="btn_secondary">Sign Up</button></a></li>
+        </ul>
+      </section>
+
+      <section class="banner_section">
+        <div class="banner">
+          <h1 class="banner_tittle">Cool Dark UI Template for Web flow Agencies!</h1>
+          <ul>
+            <li><a href="#"><button class="btn_primary">Stay Focused</button></a></li>
+          </ul>
+        </div>
+      </section>
     </div>
   </header>
-  
-  <main>
-    <div class="banner_s">
-     <div class="banner_content">
-       <h4 class="banner_s_tittle">See It in Action</h4>
-       <p class="banner_s_description">Explore the live preview and imagine your brand in this bold new look.</p>
-       <button class="btn_primary">Launch Live Preview</button>
-     </div>
-     <img src="image/wc-mini.png" alt="">
-    </div>
-    <div class="productives">
-      <h4 class="productives_tittle">Joined Thousands of Productive Users</h4>
-      <div class="productiv_items">
-        <div class="product_item">
-          <h1 class="prodictiv_num primary_color">5K</h1>
-          <p class="productiv_description">Active Users</p>
-        </div>
-        <div class="product_item">
-          <h1 class="prodictiv_num primary_color">2M+</h1>
-          <p class="productiv_description">Focus Sessions</p>
-        </div>
-        <div class="product_item">
-          <h1 class="prodictiv_num primary_color">95%</h1>
-          <p class="productiv_description">Satisfaction Rate</p>
-        </div>
 
+  <main>
+    <div class="container">
+
+      <!-- Action Section -->
+      <section class="action bg_color">
+        <div class="left_side">
+          <h4 class="left_side_tittle">See It in Action</h4>
+          <p class="left_side_subtittle">Explore the live preview and imagine your brand in this bold new look.</p>
+          <button class="btn_primary">Launch Live Preview</button>
+        </div>
+        <img src="image/wc-mini.png" alt="" />
+      </section>
+
+      <!-- Productive User Section -->
+      <section class="productive_user_section">
+        <h4 class="centered_tittle">Joined Thousands of Productive Users</h4>
+        <div class="productive_items">
+          <div class="productive_item">
+            <h1 class="productive_num primary_color">5K</h1>
+            <p class="productiv_description">Active Users</p>
+          </div>
+          <div class="productive_item">
+            <h1 class="productive_num primary_color">2M+</h1>
+            <p class="productiv_description">Focus Sessions</p>
+          </div>
+          <div class="productive_item">
+            <h1 class="productive_num primary_color">95%</h1>
+            <p class="productive_description">Satisfaction Rate</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Touch Section -->
+      <section class="touch_section bg_color">
+        <div class="left_side">
+          <h3 class="section_tittle">Let’s Get in Touch</h3>
+        </div>
+        <div class="right_side">
+          <form>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" placeholder="example@email.com" required />
+
+            <label for="name">Name</label><br />
+            <input type="text" id="name" name="name" placeholder="Full name" required />
+
+            <label for="message">Message</label><br />
+            <textarea id="message" name="message" cols="50" rows="4" placeholder="Write your message"
+              required></textarea>
+
+            <button type="submit" class="btn_primary">Get in Touch</button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer_content">
+      <h1 class="website_name logo">LOGO</h1>
+      <p class="website_subtittle">
+        Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring
+        your vision to life.
+      </p>
+      <div class="bottom-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">How it Works</a>
+        <a href="#">Services</a>
       </div>
     </div>
-    
-  </main>
-  <footer></footer>
+  </footer>
+
 </body>
+
 </html>
